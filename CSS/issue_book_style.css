@@ -1,0 +1,55 @@
+.book-rack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 90%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto;
+}
+
+.book-rack .book {
+  padding: 15px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  background-color: #fff;
+}
+
+.book-rack .no-book {
+  margin: auto;
+  font-size: 90px;
+}
+
+.book-rack .alert-books p{
+  margin: auto;
+  font-size: 70px;
+  text-align: center;
+}
+
+.book-rack .book .buttons form .request-btn {
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+
+.book-rack .book .buttons form .request-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+}

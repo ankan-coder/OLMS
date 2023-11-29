@@ -1,0 +1,100 @@
+.container {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .book-rack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 80%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.container .book-rack .book {
+  margin: 0;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  background-color: #fff;
+}
+
+.container .book-rack .no-book {
+  margin: auto;
+  font-size: 90px;
+}
+
+.container .book-rack .book .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .book-rack .book .buttons form {
+  padding: 5px;
+}
+
+.container .book-rack .book .buttons form .edit-btn,
+.container .book-rack .book .buttons form .delete-btn {
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.container .book-rack .book .buttons form .edit-btn:hover,
+.container .book-rack .book .buttons form .delete-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+}
+
+.container .form {
+  width: 400px;
+  height: 610px;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 14px 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-size: 20px;
+}
+
+.form form .inner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form form .inner-form button,
+input {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.form form .heading h2 {
+  text-align: center;
+}

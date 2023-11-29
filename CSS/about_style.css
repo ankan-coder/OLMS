@@ -1,0 +1,20 @@
+.text {
+  height: 400px;
+  max-width: 900px;
+  width: auto;
+  margin: 150px 0px 150px 500px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px;
+}
+
+.text h1 {
+  text-align: center;
+}
+
+.text p {
+  font-size: 25px;
+  text-align: center;
+}

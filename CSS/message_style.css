@@ -1,0 +1,40 @@
+.message-box {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.message-box .message {
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  background-color: #fff;
+}
+
+.message-box .message p{
+  font-size: 30px;
+}
+
+.message-box .no-message {
+  margin: auto;
+  font-size: 90px;
+  padding: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -5px,
+    rgba(0, 0, 0, 0.3) 0px 6px 12px -6px,
+    rgba(10, 37, 64, 0.35) 0px -1px 3px 0px inset;
+  background-color: #fff;
+}

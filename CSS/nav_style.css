@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Rajdhani:wght@500&display=swap");
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none;
+}
+
+* {
+  top: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-family: "Rajdhani", sans-serif;
+  color: black;
+  /* user-select: none; */
+}
+
+body {
+  background-image: url(Images/bg.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.navbar .icon a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 22px;
+}
+
+.navbar li {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 30px 74px 0px 0px;
+  border-radius: 4px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

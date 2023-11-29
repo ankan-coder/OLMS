@@ -1,0 +1,23 @@
+.text {
+  height: 400px;
+  max-width: 900px;
+  width: auto;
+  margin: 250px 0px 150px 500px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px;
+}
+
+.text h2 {
+  font-size: 38px;
+}
+
+.text h3 {
+  font-size: 30px;
+}
+
+.text p {
+  font-size: 20px;
+}

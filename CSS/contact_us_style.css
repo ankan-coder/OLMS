@@ -1,0 +1,32 @@
+.form {
+  width: 600px;
+  height: fit-content;
+  margin: 90px 0px 100px 700px;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 14px 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-size: 20px;
+}
+
+.form form .inner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form form .inner-form button,
+input {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.form form .heading h2 {
+  text-align: center;
+}
